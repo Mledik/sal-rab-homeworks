@@ -50,7 +50,7 @@ data.client = name + ' ' + phone;
     
     // - объект с адресом доставки: {street, house, entrance, floor, flat}
 
-    let jsonData = JSON.stringify(data);
-console.log (jsonData);
+    let jsonData = JSON.stringify({'data': data});
+
     return jsonData;
 }
